@@ -1,0 +1,17 @@
+<table class="table">
+    <tr>
+        <th>Lugar</th>
+        <th>E-mail</th>
+        <th>Valor</th>
+        <th>Desconto</th>
+        <th>partida</th>
+
+    </tr>
+    <tr>
+        <td>{{p1.lugar | uppercase}}</td>
+        <td>{{p1.email}}</td>
+        <td>{{p1.valor | currency:'BRL'}}</td>
+        <td>{{p1.desconto | percent}}</td>
+        <td>{{p1.partida}}</td>
+    </tr>
+</table>
